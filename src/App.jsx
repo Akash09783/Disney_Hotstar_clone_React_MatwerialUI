@@ -1,5 +1,5 @@
 
-
+import Header from "./components/Header"
 
 
 function App() {
@@ -7,7 +7,9 @@ function App() {
 
   return (
     <>
-   <div>Disney</div>
+<div className="">
+<Header/>
+</div>
     </>
   )
 }
