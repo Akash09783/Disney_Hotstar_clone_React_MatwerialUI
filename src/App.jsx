@@ -1,6 +1,6 @@
 
 import Header from "./components/Header"
-
+import Slider from "./components/Slider"
 
 function App() {
   
@@ -9,6 +9,7 @@ function App() {
     <>
 <div className="">
 <Header/>
+<Slider/>
 </div>
     </>
   )
